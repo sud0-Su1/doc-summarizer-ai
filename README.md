@@ -138,10 +138,3 @@ cd ../ai-service
 pip install -r requirements.txt
 python app.py
 ```
-
----
-
-Let me know if you'd like to add:
-- 🔄 API documentation (Swagger/Postman)
-- 🌍 Hosting instructions
-- 🧪 Testing guide
