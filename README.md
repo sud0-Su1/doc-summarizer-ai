@@ -114,7 +114,7 @@ doc-summarizer-ai/
 
 ### 1. Clone Repo
 ```bash
-git clone https://github.com/your-username/doc-summarizer-ai.git
+git clone https://github.com/Abhik-dev-x/doc-summarizer-ai.git
 cd doc-summarizer-ai
 ```
 
