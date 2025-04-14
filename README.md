@@ -1,7 +1,7 @@
 doc-summarizer-ai – AI Document Summarizer & Analyzer
 doc-summarizer-ai is a full-stack AI-powered web application that helps users summarize, analyze, and extract insights from documents like PDFs, DOCX, and plain text files. Built with modern web technologies and Natural Language Processing (NLP) techniques, IntelliDoc simplifies the process of understanding large amounts of text in seconds.
 
-
+           
 screenshots
 
 
