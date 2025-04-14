@@ -104,7 +104,7 @@ doc-summarizer-ai/
 
 ---
 
-## 🧪 Setup & Installation (No Docker, No AWS)
+## 🧪 Setup & Installation
 
 ### ✅ Prerequisites
 - Node.js  
