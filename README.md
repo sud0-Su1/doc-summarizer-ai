@@ -116,18 +116,23 @@ ai-summarizer/
 ```bash
 git clone https://github.com/sudO-su1/doc-summarizer-ai.git
 cd doc-summarizer-ai
+```
 
-```Start Frontend
+### 2. Start Frontend
+```
 cd frontend
 npm install
 npm start
 
-```Start Backend (Node.js)
+
+### 3. Start Backend (Node.js)
+```
 cd ../backend
 npm install
 node server.js
 
-```Start AI Microservice (Flask)
+### 4.Start AI Microservice (Flask)
+```
 cd ../Python
 pip install -r requirements.txt
 python app.py
