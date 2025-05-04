@@ -1,7 +1,7 @@
 
 
 
-# 🧠 doc-summarizer-ai – AI Document Summarizer & Analyzer
+#AI Document Summarizer & Analyzer
 
 **doc-summarizer-ai** is a full-stack AI-powered web application that helps users **summarize**, **analyze**, and **extract insights** from documents like **PDFs**, **DOCX**, and **plain text** files.  
 Built with modern web technologies and Natural Language Processing (NLP) techniques, **doc-summarizer-ai** simplifies the process of understanding large amounts of text in seconds.
@@ -114,7 +114,7 @@ doc-summarizer-ai/
 
 ### 1. Clone Repo
 ```bash
-git clone https://github.com/Abhik-dev-x/doc-summarizer-ai.git
+git clone https://github.com/sudO-su1/doc-summarizer-ai.git
 cd doc-summarizer-ai
 ```
 
