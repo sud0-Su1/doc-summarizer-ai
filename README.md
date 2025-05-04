@@ -55,10 +55,9 @@ Built with modern web technologies and Natural Language Processing (NLP) techniq
 - 📁 Processed **1,000+ documents** with avg. summary time **< 5 seconds**  
 - 📊 Improved user retention by **25%** due to intelligent AI insights  
 
----
 
 ## 📂 Folder Structure
-
+---
 ai-summarizer/
 ├── backend/
 │   ├── Routes/
@@ -92,7 +91,6 @@ ai-summarizer/
 │   └── .gitignore
 ├── .gitignore
 └── .readme.md
-
 ---
 
 ## 🛠️ How It Works
