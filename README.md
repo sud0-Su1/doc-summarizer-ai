@@ -58,7 +58,7 @@ Built with modern web technologies and Natural Language Processing (NLP) techniq
 ---
 
 ## 📂 Folder Structure
-
+---
 ai-summarizer/
 ├── backend/
 │   └── Routes/
@@ -90,7 +90,7 @@ ai-summarizer/
 │   │   ├── index.css
 │   ├── package.json
 │   └── .gitignore
-└── .gitignore
+└── .readme.md
 ---
 
 ---
@@ -119,4 +119,17 @@ ai-summarizer/
 git clone https://github.com/sudO-su1/doc-summarizer-ai.git
 cd doc-summarizer-ai
 
-Start Frontend
+```Start Frontend
+cd frontend
+npm install
+npm start
+
+```Start Backend (Node.js)
+cd ../backend
+npm install
+node server.js
+
+```Start AI Microservice (Flask)
+cd ../Python
+pip install -r requirements.txt
+python app.py
