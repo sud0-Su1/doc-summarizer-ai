@@ -11,9 +11,9 @@ Built with modern web technologies and Natural Language Processing (NLP) techniq
 ## 📸 Screenshots
 
 <!-- Add your screenshots here -->
-<!-- Example:
-!1.png
-![Summary View](screenshots/summary.png)
+![Screenshot](1.png)
+![Screenshot](2.png)
+
 -->
 
 ---
