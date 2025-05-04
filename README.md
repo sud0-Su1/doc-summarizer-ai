@@ -123,16 +123,18 @@ cd doc-summarizer-ai
 cd frontend
 npm install
 npm start
-
+```
 
 ### 3. Start Backend (Node.js)
 ```
 cd ../backend
 npm install
 node server.js
+```
 
 ### 4.Start AI Microservice (Flask)
 ```
 cd ../Python
 pip install -r requirements.txt
 python app.py
+````
