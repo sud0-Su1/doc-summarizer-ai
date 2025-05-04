@@ -12,7 +12,7 @@ Built with modern web technologies and Natural Language Processing (NLP) techniq
 
 <!-- Add your screenshots here -->
 <!-- Example:
-![Upload Document](screenshots/upload.png)
+!1.png
 ![Summary View](screenshots/summary.png)
 -->
 
