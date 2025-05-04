@@ -124,8 +124,6 @@ ai-summarizer/
 ### ✅ Prerequisites
 - Node.js  
 - Python 3.8+  
-- MongoDB  
-- Redis  
 
 ### 1. Clone Repo
 ```bash
