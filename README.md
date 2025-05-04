@@ -58,11 +58,11 @@ Built with modern web technologies and Natural Language Processing (NLP) techniq
 ---
 
 ## 📂 Folder Structure
----
+
 ai-summarizer/
 ├── backend/
-│   └── Routes/
-│       └── summarize.js
+│   ├── Routes/
+│   │   └── summarize.js
 │   └── server.js
 ├── Python/
 │   ├── app.py
@@ -90,8 +90,8 @@ ai-summarizer/
 │   │   ├── index.css
 │   ├── package.json
 │   └── .gitignore
+├── .gitignore
 └── .readme.md
----
 
 ---
 
