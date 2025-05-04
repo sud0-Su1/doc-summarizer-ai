@@ -1,7 +1,4 @@
-
-
-
-#AI Document Summarizer & Analyzer
+# AI Document Summarizer & Analyzer
 
 **doc-summarizer-ai** is a full-stack AI-powered web application that helps users **summarize**, **analyze**, and **extract insights** from documents like **PDFs**, **DOCX**, and **plain text** files.  
 Built with modern web technologies and Natural Language Processing (NLP) techniques, **doc-summarizer-ai** simplifies the process of understanding large amounts of text in seconds.
@@ -13,8 +10,6 @@ Built with modern web technologies and Natural Language Processing (NLP) techniq
 <!-- Add your screenshots here -->
 ![Screenshot](1.png)
 ![Screenshot](2.png)
-
--->
 
 ---
 
@@ -48,10 +43,6 @@ Built with modern web technologies and Natural Language Processing (NLP) techniq
   - **HuggingFace Transformers** for summarization (BART, GPT2, DistilBERT models)  
 - Receives text via REST API and returns summarized content + insights  
 
-### 🗃️ Database
-- MongoDB for storing user data and document metadata  
-- Redis for caching processed documents and reducing NLP load  
-
 ### 🔐 Auth & Storage
 - JWT-based authentication  
 - File uploads handled via Express and stored in **local filesystem** (no AWS)  
@@ -68,7 +59,6 @@ Built with modern web technologies and Natural Language Processing (NLP) techniq
 
 ## 📂 Folder Structure
 
-```
 ai-summarizer/
 ├── backend/
 │   └── Routes/
@@ -101,8 +91,7 @@ ai-summarizer/
 │   ├── package.json
 │   └── .gitignore
 └── .gitignore
-├── README.md
-```
+---
 
 ---
 
@@ -115,9 +104,9 @@ ai-summarizer/
    - NER & keyword extraction using spaCy  
 4. The response is returned and displayed to the user in the frontend.  
 5. Users can **export** or **email** the summary.  
-6. MongoDB stores user and document data, and Redis caches previous results for faster processing.
+6. Local file storage is used for uploaded documents.
 
----
+---Start Frontend
 
 ## 🧪 Setup & Installation
 
@@ -129,25 +118,5 @@ ai-summarizer/
 ```bash
 git clone https://github.com/sudO-su1/doc-summarizer-ai.git
 cd doc-summarizer-ai
-```
 
-### 2. Start Frontend
-```bash
-cd client
-npm install
-npm start
-```
-
-### 3. Start Backend (Node.js)
-```bash
-cd ../server
-npm install
-node index.js
-```
-
-### 4. Start AI Microservice (Flask)
-```bash
-cd ../ai-service
-pip install -r requirements.txt
-python app.py
-```
+Start Frontend
