@@ -69,23 +69,38 @@ Built with modern web technologies and Natural Language Processing (NLP) techniq
 ## 📂 Folder Structure
 
 ```
-doc-summarizer-ai/
-├── client/                # React frontend
-│   └── src/
-│       ├── components/
-│       ├── pages/
-│       └── App.js
-├── server/                # Node.js backend
-│   ├── routes/
-│   ├── controllers/
-│   └── index.js
-├── ai-service/            # Python Flask microservice
-│   ├── summarizer.py
+ai-summarizer/
+├── backend/
+│   └── Routes/
+│       └── summarize.js
+│   └── server.js
+├── Python/
+│   ├── app.py
+│   ├── summarize.py
 │   ├── ner_extractor.py
-│   └── app.py
-├── uploads/               # Uploaded documents
-├── cache/                 # Redis cache (if persisted)
-├── .env
+│   ├── nano_model.py
+│   └── requirements.txt
+├── frontend/
+│   ├── public/
+│   │   ├── index.html
+│   │   └── favicon.ico
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Header.js
+│   │   │   ├── Header.css
+│   │   │   ├── SummaryForm.js
+│   │   │   ├── SummaryForm.css
+│   │   │   ├── SummaryResult.js
+│   │   │   ├── SummaryResult.css
+│   │   │   ├── LoadingSpinner.js
+│   │   │   └── LoadingSpinner.css
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   ├── App.css
+│   │   ├── index.css
+│   ├── package.json
+│   └── .gitignore
+└── .gitignore
 ├── README.md
 ```
 
